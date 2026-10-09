@@ -52,13 +52,13 @@ a { text-underline-offset: 3px; }
     transition: background-color 160ms ease, color 160ms ease;
 }
 
-.vs-about-tabs .vs-tabs__button:hover,
-.vs-about-tabs .vs-tabs__button:focus-visible {
+.vs-about-tabs .vs-tabs__button:hover a,
+.vs-about-tabs .vs-tabs__button:focus-visible a {
     border-color: var(--wp--preset--color--flat-blue, #2864dc);
     outline: none;
 }
 
-.vs-about-tabs .vs-tabs__button.is-active {
+.vs-about-tabs .vs-tabs__button.is-active a {
     background: var(--wp--preset--color--flat-blue, #2864dc);
     color: #fff;
 }

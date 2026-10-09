@@ -34,13 +34,13 @@
                 <!-- wp:buttons {"className":"vs-tabs__list","layout":{"type":"flex","justifyContent":"left","flexWrap":"wrap"}} -->
                 <div class="wp-block-buttons vs-tabs__list">
                     <!-- wp:button {"className":"vs-tabs__button is-active","url":"#vs-panel-mission"} -->
-                    <div class="wp-block-button vs-tabs__button is-active"><a class="wp-block-button__link wp-element-button" href="#vs-panel-mission">Our Mission</a></div>
+                    <div class="wp-block-button vs-tabs__button is-active"><a class="wp-block-button__link wp-element-button" href="#vs-panel-mission">Innovation </a></div>
                     <!-- /wp:button -->
                     <!-- wp:button {"className":"vs-tabs__button","url":"#vs-panel-vision"} -->
-                    <div class="wp-block-button vs-tabs__button"><a class="wp-block-button__link wp-element-button" href="#vs-panel-vision">Our Vision</a></div>
+                    <div class="wp-block-button vs-tabs__button"><a class="wp-block-button__link wp-element-button" href="#vs-panel-vision">Secuity</a></div>
                     <!-- /wp:button -->
                     <!-- wp:button {"className":"vs-tabs__button","url":"#vs-panel-values"} -->
-                    <div class="wp-block-button vs-tabs__button"><a class="wp-block-button__link wp-element-button" href="#vs-panel-values">Our Values</a></div>
+                    <div class="wp-block-button vs-tabs__button"><a class="wp-block-button__link wp-element-button" href="#vs-panel-values">Scalability</a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->
