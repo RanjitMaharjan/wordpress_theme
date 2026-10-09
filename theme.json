@@ -1,0 +1,197 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1440px"
+    },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "navy",
+          "color": "#1E293B",
+          "name": "Navy"
+        },
+        {
+          "slug": "flat-blue",
+          "color": "#2563EB",
+          "name": "Flat Blue"
+        },
+        {
+          "slug": "flat-blue-dark",
+          "color": "#1D4ED8",
+          "name": "Flat Blue Dark"
+        },
+        {
+          "slug": "teal-accent",
+          "color": "#0D9488",
+          "name": "Teal Accent"
+        },
+        {
+          "slug": "coral-accent",
+          "color": "#F59E0B",
+          "name": "Coral Accent"
+        },
+        {
+          "slug": "background",
+          "color": "#F8FAFC",
+          "name": "Background"
+        },
+        {
+          "slug": "white",
+          "color": "#FFFFFF",
+          "name": "White"
+        },
+        {
+          "slug": "border",
+          "color": "#E2E8F0",
+          "name": "Border"
+        },
+        {
+          "slug": "muted",
+          "color": "#64748B",
+          "name": "Muted"
+        },
+        {
+          "slug": "muted-dark",
+          "color": "#94A3B8",
+          "name": "Muted Dark"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "slug": "small",
+          "size": "1rem",
+          "name": "Small"
+        },
+        {
+          "slug": "medium",
+          "size": "2rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "4rem",
+          "name": "Large"
+        },
+        {
+          "slug": "x-large",
+          "size": "6rem",
+          "name": "Extra Large"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Inter, sans-serif",
+          "slug": "inter",
+          "name": "Inter"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "x-small",
+          "size": "0.75rem",
+          "name": "Extra Small"
+        },
+        {
+          "slug": "small",
+          "size": "0.875rem",
+          "name": "Small"
+        },
+        {
+          "slug": "medium",
+          "size": "1rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "1.125rem",
+          "name": "Large"
+        },
+        {
+          "slug": "x-large",
+          "size": "1.5rem",
+          "name": "Extra Large"
+        },
+        {
+          "slug": "xx-large",
+          "size": "2.5rem",
+          "name": "XX Large"
+        },
+        {
+          "slug": "display",
+          "size": "clamp(3rem, 7vw, 4.5rem)",
+          "name": "Display"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|background",
+      "text": "var:preset|color|navy"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|inter",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontWeight": "800",
+          "lineHeight": "1.15"
+        }
+      },
+      "button": {
+        "border": {
+          "radius": "0px"
+        },
+        "typography": {
+          "fontWeight": "700"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var:preset|color|flat-blue"
+        }
+      }
+    },
+    "blocks": {
+      "core/navigation": {
+        "typography": {
+          "fontWeight": "600",
+          "fontSize": "0.875rem"
+        }
+      },
+      "core/button": {
+        "spacing": {
+          "padding": {
+            "top": "0.8rem",
+            "bottom": "0.8rem",
+            "left": "1.25rem",
+            "right": "1.25rem"
+          }
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
+}

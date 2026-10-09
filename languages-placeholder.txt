@@ -1,0 +1,1 @@
+Translation files can be generated with WordPress translation tooling (WP-CLI / gettext). Text domain: vs.

@@ -1,0 +1,160 @@
+/*
+Theme Name: Rjthemes
+Theme URI: https://example.com/
+Author: Vertex Solutions
+Version: 2.0.0
+Text Domain: vs
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: full-site-editing, block-patterns, editor-style, one-column, custom-logo, translation-ready
+*/
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+img { max-width: 100%; height: auto; }
+a { text-underline-offset: 3px; }
+
+.vertex-flat-card { border: 2px solid var(--wp--preset--color--border); background: var(--wp--preset--color--white); }
+.vertex-section-border { border-top: 2px solid var(--wp--preset--color--border); border-bottom: 2px solid var(--wp--preset--color--border); }
+.vertex-icon-box { width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; font-weight: 800; }
+.vertex-button:hover { opacity: .92; transform: translateY(-2px); }
+.vertex-button { transition: opacity .15s ease, transform .15s ease; }
+.vertex-link { font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: .75rem; }
+.vertex-stat-number { font-variant-numeric: tabular-nums; }
+
+.wp-site-blocks *, .wp-block-post-content * { box-shadow: none !important; text-shadow: none !important; }
+
+@media (max-width: 781px) {
+  .vertex-mobile-stack { flex-direction: column !important; }
+  .vertex-mobile-full { width: 100% !important; }
+}
+
+.vs-about-tabs .vs-tabs__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--wp--preset--color--border, #d8dde5);
+}
+
+.vs-about-tabs .vs-tabs__button {
+    appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0.35rem;
+    background: transparent;
+    color: var(--wp--preset--color--navy, #14243a);
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    padding: 0.75rem 1rem;
+    transition: background-color 160ms ease, color 160ms ease;
+}
+
+.vs-about-tabs .vs-tabs__button:hover,
+.vs-about-tabs .vs-tabs__button:focus-visible {
+    border-color: var(--wp--preset--color--flat-blue, #2864dc);
+    outline: none;
+}
+
+.vs-about-tabs .vs-tabs__button.is-active {
+    background: var(--wp--preset--color--flat-blue, #2864dc);
+    color: #fff;
+}
+
+.vs-about-tabs .vs-tabs__panel[hidden] {
+    display: none !important;
+}
+
+.vs-about-tabs .vs-tabs__panel h3 {
+    color: var(--wp--preset--color--navy, #14243a);
+    margin-top: 0;
+}
+
+.vs-about-tabs .vs-tabs__panel p,
+.vs-about-tabs .vs-tabs__panel li {
+    color: var(--wp--preset--color--muted, #667085);
+    line-height: 1.75;
+}
+
+@media (max-width: 600px) {
+    .vs-about-tabs .vs-tabs__list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .vs-about-tabs .vs-tabs__button {
+        text-align: left;
+        width: 100%;
+    }
+}
+
+.vs-site-header .wp-block-navigation a { text-decoration: none; }
+.vs-site-header .wp-block-navigation a:hover { color: var(--wp--preset--color--flat-blue); }
+.vs-site-footer .wp-block-social-links { gap: 0.75rem; }
+.vs-site-footer .wp-block-social-links .wp-social-link { background: transparent; color: #fff; }
+.vs-site-footer .wp-block-social-links .wp-social-link a { color: inherit; padding: 0.45rem; }
+.vs-site-footer .wp-block-social-links .wp-social-link:hover { transform: translateY(-2px); }
+.vs-site-footer a { color: #fff; }
+.vs-site-footer a:hover { color: var(--wp--preset--color--teal-accent); }
+
+
+
+/* Testimonials section */
+.vs-testimonials .wp-block-columns {
+    align-items: stretch;
+}
+
+.vs-testimonials .vs-testimonial-card {
+    box-sizing: border-box;
+    height: 100%;
+    min-width: 0;
+}
+
+.vs-testimonials .vs-testimonial-profile {
+    align-items: center;
+    gap: 1rem;
+}
+
+.vs-testimonials .vs-testimonial-avatar {
+    display: flex;
+    width: 52px;
+    min-width: 52px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+}
+
+.vs-testimonials .vs-testimonial-avatar p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.vs-testimonials .vs-testimonial-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.vs-testimonials .vs-testimonial-card-blue {
+    border-top-color: #3b5bff !important;
+}
+
+.vs-testimonials .vs-testimonial-card-teal {
+    border-top-color: #00a995 !important;
+}
+
+.vs-testimonials .vs-testimonial-card-coral {
+    border-top-color: #ffad19 !important;
+}
+
+@media (max-width: 781px) {
+    .vs-testimonials .wp-block-columns {
+        flex-wrap: wrap;
+    }
+
+    .vs-testimonials .wp-block-column {
+        flex-basis: 100% !important;
+    }
+}
